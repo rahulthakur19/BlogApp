@@ -39,5 +39,5 @@ app.get("*", (req, res) => {
 app.use(cors());
 
 app.listen(3000, () => {
-  console.log(`Medium Clone 3.0 API is running on PORT No- ${PORT}`);
+  console.log(`Blog App is running on PORT No- ${PORT}`);
 });
